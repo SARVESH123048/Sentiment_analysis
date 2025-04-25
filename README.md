@@ -1,44 +1,48 @@
-This project focuses on classifying tweets into positive and negative sentiments using machine learning and NLP techniques.
+🧠 Sentiment Analysis on Tweets
+
+Welcome to the Sentiment Analysis project! This notebook-based project demonstrates how to analyze and classify sentiments in tweets using Machine Learning and Natural Language Processing (NLP) techniques.
+
+📌 Project Overview
+
+The goal of this project is to classify tweets into positive or negative sentiments based on their textual content. This task is achieved by applying popular ML algorithms and NLP preprocessing techniques.
 
 📂 Dataset
-The dataset used is tweet_sentiment.csv, which contains labeled tweet data. It includes:
 
-Tweets as raw text
-Corresponding sentiment labels (e.g., positive, negative)
-🚀 Algorithms Used
-You can experiment with various models:
+Name: tweet_sentiment.csv
+Description: A CSV file containing tweets labeled with their sentiment.
+Features:
+tweet: The text of the tweet
+sentiment: The label (e.g., positive or negative)
+🛠️ Technologies Used
 
-Naive Bayes
-LSTM
-BERT
-(The current implementation seems to leave the model choice open—feel free to update once the final model is decided.)
+Python 3.x
+Jupyter Notebook
+Libraries:
+pandas, numpy – Data manipulation
+nltk, re – Text preprocessing
+sklearn – Machine learning models & evaluation
+matplotlib, seaborn – Visualization
+🚀 Features & Workflow
 
-📌 Tasks Performed
-Downloading and loading the dataset
-Data preprocessing (cleaning text, tokenization, etc.)
-Feature extraction (like TF-IDF or embeddings)
-Training ML model(s)
-Evaluation with metrics like accuracy, confusion matrix, etc.
-🛠️ Installation
-Clone the repository:
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-Install dependencies:
-pip install -r requirements.txt
-Run the notebook:
-jupyter notebook "Sentiment analysis.ipynb"
-📦 Dependencies
-Key libraries include:
+Data Loading
+Load the tweet dataset for processing and analysis.
+Data Cleaning & Preprocessing
+Lowercasing, punctuation removal
+Stopword removal
+Tokenization
+Feature Extraction
+Bag-of-Words or TF-IDF vectorization
+Model Building
+Try models like Naive Bayes, Logistic Regression, or even LSTM / BERT for deep learning.
+Evaluation
+Accuracy, Confusion Matrix, Precision, Recall
+Visualization
+Plot sentiment distributions
+Display word clouds or top frequent terms
+<img width="500" alt="Screenshot 2025-04-25 at 12 46 59 PM" src="https://github.com/user-attachments/assets/b17bcaa6-0ce8-4e0f-bbcc-74f2ed42aef5" />
+<img width="500" alt="Screenshot 2025-04-25 at 12 48 00 PM" src="https://github.com/user-attachments/assets/27b0beb4-602b-4297-b669-7419ae60edc3" />
+<img width="570" alt="Screenshot 2025-04-25 at 12 48 32 PM" src="https://github.com/user-attachments/assets/bfccd647-00cc-4630-ac47-6dc44a5e3be9" />
+<img width="571" alt="Screenshot 2025-04-25 at 12 49 44 PM" src="https://github.com/user-attachments/assets/ba8d96ab-5881-4bec-be3f-470d02770d86" />
 
-pandas
-numpy
-scikit-learn
-nltk
-matplotlib
-seaborn
-You can generate a requirements.txt by:
-
-pip freeze > requirements.txt
-📈 Sample Outputs<img width="1470" alt="Screenshot 2025-04-25 at 12 33 07 PM" src="https://github.com/user-attachments/assets/d1518821-f540-4a6e-872d-85e7aec43979" />
 
 
